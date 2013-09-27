@@ -16,5 +16,12 @@ def secure_token
     token
   end
 end
-SampleApp::Application.config.secret_key_base = secret_token`
+SampleApp::Application.config.secret_key_base = secret_token
 ```
+
+####Controllers
+1. Creating controller `rails generate controller name(in plurals)`.
+
+####Testing
+1. Functional tests for testing functions. Integration test for testing the whole process flow.
+2. TDD is writing tests first, before application code. By writing failing test first, implementing later and pass, to ensure the test is actually covering the functionality.
